@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style/header.css" />
+    <link rel="stylesheet" type="text/css" href="style/project.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=keyboard_double_arrow_left" />
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css" />
+
+    <title>강채연 portfolio</title>
+  </head>
+  <body>
+    <div>
+      <header>
+        <span class="logo"><a href="main.html">PORTFOLIO</a></span>
+        <nav>
+          <ul>
+            <li><a href="main.html">About Me</a></li>
+            <li><a href="project.html">Project</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="project1">
+        <article>
+          <div class="title">
+            <h2>잔디 일기</h2>
+            <img style="width: 60px" src="image/grassDiaryIcon.png" alt="잔디아이콘" />
+          </div>
+          <p class="summary">잔디일기는 일상을 기록해 소중한 순간들을 남기는 일기 서비스예요 ✨</p>
+          <img class="introImg" src="image/소개페이지.gif" alt="잔디일기-소개페이지gif" />
+        </article>
+
+        <div class="description">
+          <div class="toggle">
+            <span class="material-symbols-outlined"> keyboard_double_arrow_left </span>
+          </div>
+          <p class="label">📣 프로젝트 소개</p>
+          <p>
+            기획자, UX/UI 디자이너, BE, FE 다양한 직무의 팀원들과 함께 진행한 일기 서비스
+            프로젝트로, 현재는 최적화 작업 및 유지보수를 진행하고 있습니다.
+          </p>
+          <p>
+            일기를 쓰면 잔디가 하나씩 심어지고 리워드를 받아 다양한 아이템 구매를 통해 잔디를 꾸밀
+            수 있어요. <br />
+            다양한 동기부여 요소와 함께 꾸준한 일기 작성을 도모하며 그 과정에서 자신을 알아갈 수
+            있는 기회를 얻을 수 있답니다.
+          </p>
+
+          <p class="label">⏰ 기간</p>
+          <span>2024.02 ~ 진행 중</span>
+          <p class="label">🛠 사용한 기술 스택</p>
+          <div>
+            <span class="tag">typescript</span>
+            <span class="tag">React</span>
+            <span class="tag">Tanstack query</span>
+            <span class="tag">zustand</span>
+            <span class="tag">styled-component</span>
+          </div>
+
+          <p class="label">🔖 배포 및 CI/CD</p>
+          <div>
+            <span class="tag">AWS S3</span>
+            <span class="tag">AWS cloudfront</span>
+            <span class="tag">AWS Route53</span>
+            <span class="tag">github action</span>
+          </div>
+          <p>
+            배포 주소 👉
+            <a href="https://grassdiary.site/" target="_blank">https://grassdiary.site/</a>
+          </p>
+          <p>
+            github Link 👉
+            <a href="https://github.com/JECT-Study/Grass-Diary-Client" target="_blank"
+              >Grass-Diary-Client</a
+            >
+          </p>
+        </div>
+      </section>
+    </div>
+    <script src="./js/project.js"></script>
+  </body>
+</html>
