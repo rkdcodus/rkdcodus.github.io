@@ -1,0 +1,41 @@
+/* 프로필 및 소개글 */
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+h1 {
+  font-size: xx-large;
+  margin-bottom: 10px;
+}
+
+.profile img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 200px;
+  padding: 20px;
+}
+
+.tag_title {
+  margin: 10px 0;
+  padding: 10px 0;
+  border-bottom: 0.5px solid #202123;
+  font-weight: bold;
+}
+
+.tag {
+  padding: 5px 10px;
+  border-radius: 50px;
+  background-color: #202123;
+  color: rgb(212, 212, 212);
+  font-size: small;
+}
+
+/* 경험 나열 */
+.experience {
+  height: 100vh;
+}
